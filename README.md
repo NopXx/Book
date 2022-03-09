@@ -4,7 +4,7 @@ MyProject การพัฒนาระบบฐานข้อมูล `3901-
 ระบบยืม-คืนหนังสือ \
 Book Lending System
 ### Setup Project
-1. Install `NodeJS 14.00 > latest version`
+### 1. Install `NodeJS 14.00 > latest version`
 ### 2. Setup Back-end
 
 ### `cd server`
