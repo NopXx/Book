@@ -8,3 +8,11 @@ NodeJS 14.00 > latest version
 ### `npm i`
 
 ### `npm run dev`
+
+### setup Front-end
+
+### `cd client`
+
+### `npm i`
+
+### `npm start`
