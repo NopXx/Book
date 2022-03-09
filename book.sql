@@ -49,48 +49,6 @@ INSERT INTO `books` (`b_id`, `b_name`, `types`, `profile_path`) VALUES
 	(42, 'Kamisato Ayaka', 'การ์ตูน', '91316581_p0.jpg');
 /*!40000 ALTER TABLE `books` ENABLE KEYS */;
 
--- Dumping structure for table book.lends
-CREATE TABLE IF NOT EXISTS `lends` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `b_id` int(11) NOT NULL COMMENT 'ไอดีหนังสือ',
-  `u_id` int(11) NOT NULL COMMENT 'ไอดีผู้ยืม',
-  `Borrow_date` datetime NOT NULL COMMENT 'วันที่ยืม',
-  `s_id` int(11) DEFAULT NULL COMMENT 'ไอดีเจ้าหน้าที่',
-  `Time_allowed` datetime DEFAULT NULL COMMENT 'เวลาที่อนุญาต',
-  `Date_night` datetime DEFAULT NULL COMMENT 'วันที่คืน',
-  PRIMARY KEY (`id`),
-  KEY `id_book` (`b_id`) USING BTREE,
-  KEY `id_user` (`u_id`) USING BTREE,
-  KEY `id_staff` (`s_id`) USING BTREE,
-  CONSTRAINT `FK_lends_books` FOREIGN KEY (`b_id`) REFERENCES `books` (`b_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_lends_staff` FOREIGN KEY (`s_id`) REFERENCES `staff` (`s_id`),
-  CONSTRAINT `FK_lends_user` FOREIGN KEY (`u_id`) REFERENCES `user` (`u_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=122 DEFAULT CHARSET=utf8mb4;
-
--- Dumping data for table book.lends: ~19 rows (approximately)
-/*!40000 ALTER TABLE `lends` DISABLE KEYS */;
-INSERT INTO `lends` (`id`, `b_id`, `u_id`, `Borrow_date`, `s_id`, `Time_allowed`, `Date_night`) VALUES
-	(84, 6, 1001, '2020-02-07 13:55:02', NULL, NULL, NULL),
-	(86, 5, 1002, '2020-02-12 14:37:41', 2006, '2020-02-16 21:50:49', '2020-02-16 21:51:23'),
-	(87, 5, 1002, '2020-02-12 14:39:42', 2006, '2020-02-16 21:50:50', '2020-02-16 21:51:24'),
-	(88, 10, 1002, '2020-02-12 14:40:12', 2006, '2020-02-16 21:50:51', '2020-02-16 21:51:24'),
-	(91, 16, 1002, '2020-02-13 10:11:56', 2006, '2020-02-16 22:05:22', NULL),
-	(92, 14, 1002, '2020-02-13 10:12:02', 2002, '2020-02-16 18:05:06', '2020-02-16 21:51:26'),
-	(95, 36, 1002, '2020-02-13 18:40:11', 2002, '2020-02-16 18:05:07', '2020-02-16 21:51:28'),
-	(99, 37, 1002, '2020-02-13 19:24:43', NULL, NULL, NULL),
-	(101, 37, 1002, '2020-02-13 19:29:44', NULL, NULL, NULL),
-	(105, 5, 1002, '2020-02-15 16:31:44', NULL, NULL, NULL),
-	(106, 36, 1002, '2020-02-15 16:42:00', NULL, NULL, NULL),
-	(107, 37, 1002, '2020-02-15 16:42:32', 2002, '2022-03-08 20:27:11', NULL),
-	(108, 6, 1002, '2020-02-15 17:03:51', 2002, '2022-03-07 00:50:19', NULL),
-	(110, 35, 1002, '2020-02-15 17:05:46', 2002, '2022-03-07 00:49:30', '2022-03-07 00:50:00'),
-	(111, 37, 1001, '2020-02-16 20:09:28', 2002, '2022-03-07 00:49:26', NULL),
-	(112, 37, 1001, '2020-02-16 20:09:32', 2002, '2022-03-07 23:52:19', NULL),
-	(117, 39, 1009, '2022-03-07 21:09:31', 2002, '2022-03-07 21:09:49', '2022-03-07 21:09:59'),
-	(119, 42, 1009, '2022-03-08 20:23:35', 2006, '2022-03-09 14:18:56', NULL),
-	(120, 42, 1009, '2022-03-09 05:55:51', NULL, NULL, NULL);
-/*!40000 ALTER TABLE `lends` ENABLE KEYS */;
-
 -- Dumping structure for table book.staff
 CREATE TABLE IF NOT EXISTS `staff` (
   `s_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'รหัสพนักงาน',
@@ -133,7 +91,47 @@ INSERT INTO `user` (`u_id`, `u_user`, `u_pw`, `u_fname`, `u_lname`, `u_tel`) VAL
 	(1002, 'nopkub', '$2b$10$qFX.Et6rSyNNTX/JIc6q5ubEZn.hREBpsc52HPKFOwiWbXaxeTEBS', 'นพรัตน์', 'คำโกแก้ว', '0652945530'),
 	(1009, 'nok', '$2b$10$qFX.Et6rSyNNTX/JIc6q5ubEZn.hREBpsc52HPKFOwiWbXaxeTEBS', 'nopp', 'kham', '12234');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
+- Dumping structure for table book.lends
+CREATE TABLE IF NOT EXISTS `lends` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `b_id` int(11) NOT NULL COMMENT 'ไอดีหนังสือ',
+  `u_id` int(11) NOT NULL COMMENT 'ไอดีผู้ยืม',
+  `Borrow_date` datetime NOT NULL COMMENT 'วันที่ยืม',
+  `s_id` int(11) DEFAULT NULL COMMENT 'ไอดีเจ้าหน้าที่',
+  `Time_allowed` datetime DEFAULT NULL COMMENT 'เวลาที่อนุญาต',
+  `Date_night` datetime DEFAULT NULL COMMENT 'วันที่คืน',
+  PRIMARY KEY (`id`),
+  KEY `id_book` (`b_id`) USING BTREE,
+  KEY `id_user` (`u_id`) USING BTREE,
+  KEY `id_staff` (`s_id`) USING BTREE,
+  CONSTRAINT `FK_lends_books` FOREIGN KEY (`b_id`) REFERENCES `books` (`b_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_lends_staff` FOREIGN KEY (`s_id`) REFERENCES `staff` (`s_id`),
+  CONSTRAINT `FK_lends_user` FOREIGN KEY (`u_id`) REFERENCES `user` (`u_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=122 DEFAULT CHARSET=utf8mb4;
 
+-- Dumping data for table book.lends: ~19 rows (approximately)
+/*!40000 ALTER TABLE `lends` DISABLE KEYS */;
+INSERT INTO `lends` (`id`, `b_id`, `u_id`, `Borrow_date`, `s_id`, `Time_allowed`, `Date_night`) VALUES
+	(84, 6, 1001, '2020-02-07 13:55:02', NULL, NULL, NULL),
+	(86, 5, 1002, '2020-02-12 14:37:41', 2006, '2020-02-16 21:50:49', '2020-02-16 21:51:23'),
+	(87, 5, 1002, '2020-02-12 14:39:42', 2006, '2020-02-16 21:50:50', '2020-02-16 21:51:24'),
+	(88, 10, 1002, '2020-02-12 14:40:12', 2006, '2020-02-16 21:50:51', '2020-02-16 21:51:24'),
+	(91, 16, 1002, '2020-02-13 10:11:56', 2006, '2020-02-16 22:05:22', NULL),
+	(92, 14, 1002, '2020-02-13 10:12:02', 2002, '2020-02-16 18:05:06', '2020-02-16 21:51:26'),
+	(95, 36, 1002, '2020-02-13 18:40:11', 2002, '2020-02-16 18:05:07', '2020-02-16 21:51:28'),
+	(99, 37, 1002, '2020-02-13 19:24:43', NULL, NULL, NULL),
+	(101, 37, 1002, '2020-02-13 19:29:44', NULL, NULL, NULL),
+	(105, 5, 1002, '2020-02-15 16:31:44', NULL, NULL, NULL),
+	(106, 36, 1002, '2020-02-15 16:42:00', NULL, NULL, NULL),
+	(107, 37, 1002, '2020-02-15 16:42:32', 2002, '2022-03-08 20:27:11', NULL),
+	(108, 6, 1002, '2020-02-15 17:03:51', 2002, '2022-03-07 00:50:19', NULL),
+	(110, 35, 1002, '2020-02-15 17:05:46', 2002, '2022-03-07 00:49:30', '2022-03-07 00:50:00'),
+	(111, 37, 1001, '2020-02-16 20:09:28', 2002, '2022-03-07 00:49:26', NULL),
+	(112, 37, 1001, '2020-02-16 20:09:32', 2002, '2022-03-07 23:52:19', NULL),
+	(117, 39, 1009, '2022-03-07 21:09:31', 2002, '2022-03-07 21:09:49', '2022-03-07 21:09:59'),
+	(119, 42, 1009, '2022-03-08 20:23:35', 2006, '2022-03-09 14:18:56', NULL),
+	(120, 42, 1009, '2022-03-09 05:55:51', NULL, NULL, NULL);
+/*!40000 ALTER TABLE `lends` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
