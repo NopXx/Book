@@ -1,5 +1,6 @@
 # Book
-MyProject Nopparat 64309010031 IT \
+MyProject การพัฒนาระบบฐานข้อมูล `3901-2003`
+นาย นพรัตน์ คำโกแก้ว `64309010031` ปวส.1 กลุ่ม 2
 ระบบยืม-คืนหนังสือ \
 Book Lending System
 ### Setup Project
