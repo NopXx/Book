@@ -7,16 +7,16 @@ Book Lending System
 ### 1. Install `NodeJS 14.00 > latest version`
 ### 2. Setup Back-end
 
-### `cd server`
+`cd server`
 
-### `npm i`
+`npm i`
 
-### `npm run dev`
+`npm run dev`
 
 ### 3. Setup Front-end
 
-### `cd client`
+`cd client`
 
-### `npm i`
+`npm i`
 
-### `npm start`
+`npm start`
