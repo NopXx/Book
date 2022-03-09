@@ -2,7 +2,7 @@
 MyProject Nopparat 64309010031 IT
 ### Setup Project
 NodeJS 14.00 > latest version
-### Setup Back-end
+### 1. Setup Back-end
 
 ### `cd server`
 
@@ -10,7 +10,7 @@ NodeJS 14.00 > latest version
 
 ### `npm run dev`
 
-### Setup Front-end
+### 2. Setup Front-end
 
 ### `cd client`
 
