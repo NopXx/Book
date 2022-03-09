@@ -4,8 +4,9 @@ MyProject การพัฒนาระบบฐานข้อมูล `3901-
 ระบบยืม-คืนหนังสือ \
 Book Lending System
 ### Setup Project
-### 1. Install `NodeJS 14.00 > latest version`
-### 2. Setup Back-end
+### 1. import sql file
+### 2. Install `NodeJS 14.00 > latest version`
+### 3. Setup Back-end
 
 `cd server`
 
@@ -13,7 +14,7 @@ Book Lending System
 
 `npm run dev`
 
-### 3. Setup Front-end
+### 4. Setup Front-end
 
 `cd client`
 
