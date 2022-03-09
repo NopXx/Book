@@ -3,8 +3,8 @@ MyProject Nopparat 64309010031 IT \
 ระบบยืม-คืนหนังสือ \
 Book Lending System
 ### Setup Project
-NodeJS 14.00 > latest version
-### 1. Setup Back-end
+1.  Install NodeJS 14.00 > latest version
+### 2. Setup Back-end
 
 ### `cd server`
 
@@ -12,7 +12,7 @@ NodeJS 14.00 > latest version
 
 ### `npm run dev`
 
-### 2. Setup Front-end
+### 3. Setup Front-end
 
 ### `cd client`
 
