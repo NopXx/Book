@@ -9,7 +9,7 @@ Book Lending System
 ### 3. Setup Back-end
 
 ```
-###cd server
+cd server
 ```
 
 ```
