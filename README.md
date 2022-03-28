@@ -8,7 +8,10 @@ Book Lending System
 ### 2. Install `NodeJS 14.00 > latest version`
 ### 3. Setup Back-end
 
-`cd server`
+```
+###cd server
+```
+
 ```
 npm i
 ```
