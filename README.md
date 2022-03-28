@@ -12,13 +12,20 @@ Book Lending System
 ```
 npm i
 ```
-
-`npm run dev`
+```
+npm run dev
+```
 
 ### 4. Setup Front-end
 
-`cd client`
+```
+cd client
+```
 
-`npm i`
+```
+npm i
+```
 
-`npm start`
+```
+npm start
+```
