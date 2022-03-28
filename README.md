@@ -10,7 +10,7 @@ Book Lending System
 
 `cd server`
 ```
-`npm i`
+npm i
 ```
 
 `npm run dev`
