@@ -9,8 +9,9 @@ Book Lending System
 ### 3. Setup Back-end
 
 `cd server`
-
+```
 `npm i`
+```
 
 `npm run dev`
 
