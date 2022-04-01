@@ -1,0 +1,831 @@
+[
+    {
+        "id": 1,
+        "date": "01-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "17758",
+                "sale_total_old": "20223",
+                "yoy": "-12.2%",
+                "share": "32.2%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "15248",
+                "sale_total_old": "14285",
+                "yoy": "+6.7%",
+                "share": "27.6%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "5657",
+                "sale_total_old": "11411",
+                "yoy": "-50.4%",
+                "share": "10.2%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "3320",
+                "sale_total_old": "6003",
+                "yoy": "-44.7%",
+                "share": "6.0%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "3170",
+                "sale_total_old": "4039",
+                "yoy": "-21.5%",
+                "share": "5.7%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "2182",
+                "sale_total_old": "5458",
+                "yoy": "-60.0%",
+                "share": "4.0%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "1702",
+                "sale_total_old": "2641",
+                "yoy": "-35.6%",
+                "share": "3.1%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "976",
+                "sale_total_old": "657",
+                "yoy": "+48.6%",
+                "share": "1.8%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "361",
+                "sale_total_old": "200",
+                "yoy": "+80.5%",
+                "share": "0.7%"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "date": "02-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "15897",
+                "sale_total_old": "18606",
+                "yoy": "-14.6%",
+                "share": "27.0%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "16477",
+                "sale_total_old": "14484",
+                "yoy": "+13.8%",
+                "share": "27.9%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "9007",
+                "sale_total_old": "9761",
+                "yoy": "-7.7%",
+                "share": "15.3%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "3642",
+                "sale_total_old": "5973",
+                "yoy": "-39.0%",
+                "share": "6.2%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "2543",
+                "sale_total_old": "4810",
+                "yoy": "-47.1%",
+                "share": "4.3%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "3076",
+                "sale_total_old": "3000",
+                "yoy": "+2.5%",
+                "share": "5.2%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "1484",
+                "sale_total_old": "4810",
+                "yoy": "-30.0%",
+                "share": "2.5%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "1056",
+                "sale_total_old": "709",
+                "yoy": "+48.9%",
+                "share": "1.8%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "260",
+                "sale_total_old": "165",
+                "yoy": "+57.6%",
+                "share": "0.4%"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "date": "03-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "22276",
+                "sale_total_old": "17332",
+                "yoy": "+28.5%",
+                "share": "27.9%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "17523",
+                "sale_total_old": "13629",
+                "yoy": "+28.6%",
+                "share": "21.9%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "10295",
+                "sale_total_old": "7506",
+                "yoy": "+37.2%",
+                "share": "12.9%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "5123",
+                "sale_total_old": "4998",
+                "yoy": "+2.5%",
+                "share": "6.4%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "4644",
+                "sale_total_old": "3113",
+                "yoy": "+49.2%",
+                "share": "5.8%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "3832",
+                "sale_total_old": "3236",
+                "yoy": "+18.4%",
+                "share": "4.8%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "2000",
+                "sale_total_old": "1767",
+                "yoy": "+13.2%",
+                "share": "2.5%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "1348",
+                "sale_total_old": "712",
+                "yoy": "+89.3%",
+                "share": "1.7%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "332",
+                "sale_total_old": "85",
+                "yoy": "+290.6%",
+                "share": "0.4%"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "date": "04-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "19150",
+                "sale_total_old": "11084",
+                "yoy": "+72.8%",
+                "share": "32.9%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "14953",
+                "sale_total_old": "6865",
+                "yoy": "+117.8%",
+                "share": "25.7%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "5419",
+                "sale_total_old": "2648",
+                "yoy": "+104.6%",
+                "share": "9.3%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "4107",
+                "sale_total_old": "2019",
+                "yoy": "+103.4%",
+                "share": "7.1%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "3166",
+                "sale_total_old": "1804",
+                "yoy": "+75.5%",
+                "share": "5.4%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "2208",
+                "sale_total_old": "1012",
+                "yoy": "+118.2%",
+                "share": "3.8%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "1930",
+                "sale_total_old": "1114",
+                "yoy": "+73.2%",
+                "share": "3.3%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "885",
+                "sale_total_old": "524",
+                "yoy": "+68.9%",
+                "share": "1.5%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "353",
+                "sale_total_old": "27",
+                "yoy": "+1207.4%",
+                "share": "0.6%"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "date": "05-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "19767",
+                "sale_total_old": "13611",
+                "yoy": "+45.2%",
+                "share": "35.3%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "14866",
+                "sale_total_old": "10130",
+                "yoy": "+46.8%",
+                "share": "26.6%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "4998",
+                "sale_total_old": "4178",
+                "yoy": "+19.6%",
+                "share": "8.9%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "3392",
+                "sale_total_old": "2767",
+                "yoy": "+22.6%",
+                "share": "6.1%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "2805",
+                "sale_total_old": "1602",
+                "yoy": "+75.1%",
+                "share": "5.0%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "2034",
+                "sale_total_old": "2671",
+                "yoy": "-23.8%",
+                "share": "3.6%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "1574",
+                "sale_total_old": "1425",
+                "yoy": "+10.5%",
+                "share": "2.8%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "1002",
+                "sale_total_old": "651",
+                "yoy": "+53.9%",
+                "share": "1.8%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "192",
+                "sale_total_old": "27",
+                "yoy": "+611.1%",
+                "share": "0.3%"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "date": "06-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "22337",
+                "sale_total_old": "13366",
+                "yoy": "+67.1%",
+                "share": "34.4%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "14098",
+                "sale_total_old": "16661",
+                "yoy": "-15.4%",
+                "share": "21.7%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "7339",
+                "sale_total_old": "5822",
+                "yoy": "+26.1%",
+                "share": "11.3%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "3944",
+                "sale_total_old": "4002",
+                "yoy": "-1.4%",
+                "share": "6.1%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "2270",
+                "sale_total_old": "3523",
+                "yoy": "-35.6%",
+                "share": "3.5%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "3005",
+                "sale_total_old": "2642",
+                "yoy": "+13.7%",
+                "share": "4.6%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "1955",
+                "sale_total_old": "2021",
+                "yoy": "-3.3%",
+                "share": "3.0%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "1216",
+                "sale_total_old": "940",
+                "yoy": "+29.4%",
+                "share": "1.9%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "93",
+                "sale_total_old": "35",
+                "yoy": "+165.7%",
+                "share": "0.1%"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "date": "07-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "17040",
+                "sale_total_old": "17553",
+                "yoy": "-2.9%",
+                "share": "32.5%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "13680",
+                "sale_total_old": "15477",
+                "yoy": "-11.6%",
+                "share": "26.1%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "6958",
+                "sale_total_old": "6034",
+                "yoy": "+15.3%",
+                "share": "13.3%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "3205",
+                "sale_total_old": "4920",
+                "yoy": "-34.9%",
+                "share": "6.1%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "2112",
+                "sale_total_old": "3040",
+                "yoy": "-30.5%",
+                "share": "4.0%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "1751",
+                "sale_total_old": "4000",
+                "yoy": "-56.2%",
+                "share": "3.3%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "1402",
+                "sale_total_old": "2065",
+                "yoy": "-32.1%",
+                "share": "2.7%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "1045",
+                "sale_total_old": "813",
+                "yoy": "+28.5%",
+                "share": "2.0%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "146",
+                "sale_total_old": "38",
+                "yoy": "+284.2%",
+                "share": "0.3%"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "date": "08-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "12364",
+                "sale_total_old": "21599",
+                "yoy": "-42.8%",
+                "share": "29.3%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "11035",
+                "sale_total_old": "16557",
+                "yoy": "-33.4%",
+                "share": "26.2%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "5345",
+                "sale_total_old": "8610",
+                "yoy": "-37.9%",
+                "share": "12.7%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "2684",
+                "sale_total_old": "4979",
+                "yoy": "-46.1%",
+                "share": "6.4%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "1523",
+                "sale_total_old": "4116",
+                "yoy": "-63.0%",
+                "share": "3.6%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "1813",
+                "sale_total_old": "3707",
+                "yoy": "-51.1%",
+                "share": "4.3%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "1209",
+                "sale_total_old": "2152",
+                "yoy": "-43.8%",
+                "share": "2.9%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "1048",
+                "sale_total_old": "814",
+                "yoy": "+28.7%",
+                "share": "2.5%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "164",
+                "sale_total_old": "26",
+                "yoy": "+530.8%",
+                "share": "0.4%"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "date": "09-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "19971",
+                "sale_total_old": "23757",
+                "yoy": "-15.9%",
+                "share": "31.1%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "13649",
+                "sale_total_old": "15438",
+                "yoy": "-11.6%",
+                "share": "21.3%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "6311",
+                "sale_total_old": "9077",
+                "yoy": "-30.5%",
+                "share": "9.8%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "3504",
+                "sale_total_old": "4861",
+                "yoy": "-27.9%",
+                "share": "5.5%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "2980",
+                "sale_total_old": "3917",
+                "yoy": "-23.9%",
+                "share": "4.6%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "2146",
+                "sale_total_old": "3429",
+                "yoy": "-37.4%",
+                "share": "3.3%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "1485",
+                "sale_total_old": "2145",
+                "yoy": "-30.8%",
+                "share": "2.3%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "1227",
+                "sale_total_old": "1109",
+                "yoy": "+10.6%",
+                "share": "1.9%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "189",
+                "sale_total_old": "108",
+                "yoy": "+75.0%",
+                "share": "0.3%"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "date": "08-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "22845",
+                "sale_total_old": "25709",
+                "yoy": "-11.1%",
+                "share": "35.4%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "15411",
+                "sale_total_old": "17174",
+                "yoy": "-10.3%",
+                "share": "23.9%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "7183",
+                "sale_total_old": "9011",
+                "yoy": "-20.3%",
+                "share": "11.1%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "4100",
+                "sale_total_old": "4814",
+                "yoy": "-14.8%",
+                "share": "6.4%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "2083",
+                "sale_total_old": "4014",
+                "yoy": "-48.1%",
+                "share": "3.2%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "2513",
+                "sale_total_old": "3907",
+                "yoy": "-35.7%",
+                "share": "3.9%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "2022",
+                "sale_total_old": "2172",
+                "yoy": "-6.9%",
+                "share": "3.1%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "1191",
+                "sale_total_old": "971",
+                "yoy": "+22.7%",
+                "share": "1.8%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "262",
+                "sale_total_old": "293",
+                "yoy": "-10.6%",
+                "share": "0.4%"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "date": "11-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "22845",
+                "sale_total_old": "25709",
+                "yoy": "-11.1%",
+                "share": "35.4%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "15411",
+                "sale_total_old": "17174",
+                "yoy": "-10.3%",
+                "share": "23.9%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "7183",
+                "sale_total_old": "9011",
+                "yoy": "-20.3%",
+                "share": "11.1%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "4100",
+                "sale_total_old": "4814",
+                "yoy": "-14.8%",
+                "share": "6.4%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "2513",
+                "sale_total_old": "3907",
+                "yoy": "-35.7%",
+                "share": "3.9%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "2083",
+                "sale_total_old": "4014",
+                "yoy": "-48.1%",
+                "share": "3.2%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "2022",
+                "sale_total_old": "2172",
+                "yoy": "-6.9%",
+                "share": "3.1%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "1191",
+                "sale_total_old": "971",
+                "yoy": "+22.7%",
+                "share": "1.8%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "262",
+                "sale_total_old": "293",
+                "yoy": "-10.6%",
+                "share": "0.4%"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "date": "12-2021",
+        "item": [
+            {
+                "card_name": "Toyota",
+                "sale_total": "27150",
+                "sale_total_old": "33197",
+                "yoy": "-18.2%",
+                "share": "29.8%"
+            },
+            {
+                "card_name": "Isuzu",
+                "sale_total": "18801",
+                "sale_total_old": "22917",
+                "yoy": "-18.0%",
+                "share": "20.7%"
+            },
+            {
+                "card_name": "Honda",
+                "sale_total": "11556",
+                "sale_total_old": "10075",
+                "yoy": "+14.7%",
+                "share": "12.7%"
+            },
+            {
+                "card_name": "Mitsubishi",
+                "sale_total": "5763",
+                "sale_total_old": "6023",
+                "yoy": "-4.3%",
+                "share": "6.3%"
+            },
+            {
+                "card_name": "Nissan",
+                "sale_total": "3592",
+                "sale_total_old": "3661",
+                "yoy": "-1.9%",
+                "share": "3.9%"
+            },
+            {
+                "card_name": "Mazda",
+                "sale_total": "3750",
+                "sale_total_old": "5253",
+                "yoy": "-28.6%",
+                "share": "4.1%"
+            },
+            {
+                "card_name": "Suzuki",
+                "sale_total": "3142",
+                "sale_total_old": "3493",
+                "yoy": "-10.0%",
+                "share": "3.5%"
+            },
+            {
+                "card_name": "Hino",
+                "sale_total": "1458",
+                "sale_total_old": "1435",
+                "yoy": "+1.6%",
+                "share": "1.6%"
+            },
+            {
+                "card_name": "Subaru",
+                "sale_total": "371",
+                "sale_total_old": "462",
+                "yoy": "-19.7%",
+                "share": "0.4%"
+            }
+        ]
+    }
+
+]

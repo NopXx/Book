@@ -1,4 +1,5 @@
 const express = require("express");
+const total_car = require('./total_car_sales.json')
 const multer = require("multer");
 const app = express();
 const mysql = require("mysql");
@@ -13,7 +14,7 @@ const saltRounds = 10;
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:8080"],
     methods: ["GET", "POST"],
     credentials: true,
   })
@@ -49,6 +50,9 @@ app.get("/book", (req, res) => {
       res.send(result);
     }
   });
+});
+app.get("/totalcar", (req, res) => {
+  res.send(total_car)
 });
 app.get("/book/select/:id", (req, res) => {
   // รับค่าจาก /:id
