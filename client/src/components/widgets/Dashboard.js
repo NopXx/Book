@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Dashboard({ bookNum, historyNum, userNum, staffNum }) {
   return (
     <div class="shadow-lg stats stats-vertical lg:stats-horizontal lg:mt-9 mt-2 md:mt-5">
-      <div class="flex flex-col lg:w-full w-auto lg:flex-row">
+      <div class="flex flex-col lg:w-full w-auto lg:flex-row items-center md:items-start">
         <Link to="/admin/book">
           <div class="stat md:w-56 w-auto">
             <div class="stat-figure text-primary">
