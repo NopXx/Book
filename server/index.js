@@ -1,5 +1,6 @@
 const express = require("express");
 const total_car = require('./total_car_sales.json')
+const total_car_63 = require('./total_car_sales_63.json')
 const multer = require("multer");
 const app = express();
 const mysql = require("mysql");
@@ -53,6 +54,9 @@ app.get("/book", (req, res) => {
 });
 app.get("/totalcar", (req, res) => {
   res.send(total_car)
+});
+app.get("/totalcar63", (req, res) => {
+  res.send(total_car_63)
 });
 app.get("/book/select/:id", (req, res) => {
   // รับค่าจาก /:id
